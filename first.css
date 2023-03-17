@@ -1,0 +1,478 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Quantico', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: orange;
+    border-radius: 25px;
+    position: sticky;
+    width: 100vw;
+}
+
+.logo a img {
+    height: 60px;
+    width: 75px;
+    border-radius: 35px;
+    margin-left: 20px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.navbar ul li a {
+    display: block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+.search {
+    margin-left: 100px;
+    position: relative;
+}
+
+.navbar input {
+    border-radius: 7px;
+    padding: 5px 17px;
+    width: 500px;
+    margin-top: 10px;
+}
+
+.login img {
+    height: 50px;
+    width: 60px;
+    border-radius: 40px;
+    margin-left: 60px;
+}
+
+.drop {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.drop a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.drop a:hover {
+    background-color: #ddd;
+}
+
+.search:hover .drop {
+    display: block;
+}
+
+.animation {
+    height: 300px;
+    width: 1000px;
+    box-shadow: 10px 10px 5px blue;
+    margin: 10px auto;
+    background-image: url('animation.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    animation-name: homeanime;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+@keyframes homeanime {
+    0% {
+        background-image: url('animation.jpg');
+    }
+
+    10% {
+        background-image: url('animation1.jpg');
+    }
+
+    20% {
+        background-image: url('animation2.jpg');
+    }
+
+    30% {
+        background-image: url('animation3.jpg');
+    }
+
+    40% {
+        background-image: url('animation4.jpg');
+    }
+
+    50% {
+        background-image: url('animation5.jpg');
+    }
+
+    60% {
+        background-image: url('animation6.jpg');
+    }
+
+    70% {
+        background-image: url('animation7.jpg');
+    }
+
+    80% {
+        background-image: url('animation8.jpg');
+    }
+
+    90% {
+        background-image: url('animation9.jpg');
+    }
+
+    100% {
+        background-image: url('animation10.jpg');
+    }
+}
+
+.heading {
+    text-align: center;
+    margin: 15px;
+}
+
+.container1 {
+    display: flex;
+    /* border: 2px solid black; */
+    width: 100vw;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxes1 {
+    padding: 30px;
+}
+
+.boxes1 img {
+    height: 200px;
+    width: 200px;
+}
+
+.name1 {
+    text-align: center;
+    margin: 10px;
+}
+
+.btn1 button {
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    color: white;
+    overflow: auto;
+    background-color: orange;
+    align-content: center;
+}
+
+.btn1 button:hover {
+    background-color: blue;
+    color: yellow;
+}
+
+.container2 {
+    display: flex;
+    /* border: 2px solid black; */
+    width: 100vw;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxes2 {
+    padding: 30px;
+}
+
+.boxes2 img {
+    height: 200px;
+    width: 200px;
+}
+
+.name2 {
+    text-align: center;
+    margin: 10px;
+}
+
+.btn2 button {
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    color: white;
+    overflow: auto;
+    background-color: orange;
+    align-content: center;
+}
+
+.btn2 button:hover {
+    background-color: blue;
+    color: yellow;
+}
+
+.container3 {
+    display: flex;
+    /* border: 2px solid black; */
+    width: 100vw;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxes3 {
+    padding: 30px;
+}
+
+.boxes3 img {
+    height: 200px;
+    width: 200px;
+}
+
+.name3 {
+    text-align: center;
+    margin: 10px;
+}
+
+.btn3 button {
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    color: white;
+    overflow: auto;
+    background-color: orange;
+    align-content: center;
+}
+
+.btn3 button:hover {
+    background-color: blue;
+    color: yellow;
+}
+
+.container4 {
+    display: flex;
+    /* border: 2px solid black; */
+    width: 100vw;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxes4 {
+    padding: 30px;
+}
+
+.boxes4 img {
+    height: 200px;
+    width: 200px;
+}
+
+.name4 {
+    text-align: center;
+    margin: 10px;
+}
+
+.btn4 button {
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    color: white;
+    overflow: auto;
+    background-color: orange;
+    align-content: center;
+}
+
+.btn4 button:hover {
+    background-color: blue;
+    color: yellow;
+}
+
+.container5 {
+    display: flex;
+    /* border: 2px solid black; */
+    width: 100vw;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxes5 {
+    padding: 30px;
+}
+
+.boxes5 img {
+    height: 200px;
+    width: 200px;
+}
+
+.name5 {
+    text-align: center;
+    margin: 10px;
+}
+
+.btn5 button {
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    color: white;
+    overflow: auto;
+    background-color: orange;
+    align-content: center;
+}
+
+.btn5 button:hover {
+    background-color: blue;
+    color: yellow;
+}
+
+.container6 {
+    display: flex;
+    /* border: 2px solid black; */
+    width: 100vw;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxes6 {
+    padding: 30px;
+}
+
+.boxes6 img {
+    height: 200px;
+    width: 200px;
+}
+
+.name6 {
+    text-align: center;
+    margin: 10px;
+}
+
+.btn6 button {
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    color: white;
+    overflow: auto;
+    background-color: orange;
+    align-content: center;
+}
+
+.btn6 button:hover {
+    background-color: blue;
+    color: yellow;
+}
+
+.container7 {
+    display: flex;
+    /* border: 2px solid black; */
+    width: 100vw;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxes7 {
+    padding: 30px;
+}
+
+.boxes7 img {
+    height: 200px;
+    width: 200px;
+}
+
+.name7 {
+    text-align: center;
+    margin: 10px;
+}
+
+.btn7 button {
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    color: white;
+    overflow: auto;
+    background-color: orange;
+    align-content: center;
+}
+
+.btn7 button:hover {
+    background-color: blue;
+    color: yellow;
+}
+
+.container8 {
+    display: flex;
+    /* border: 2px solid black; */
+    width: 100vw;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxes8 {
+    padding: 30px;
+}
+
+.boxes8 img {
+    height: 200px;
+    width: 200px;
+}
+
+.name8 {
+    text-align: center;
+    margin: 10px;
+}
+
+.btn8 button {
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    color: white;
+    overflow: auto;
+    background-color: orange;
+    align-content: center;
+}
+
+.btn8 button:hover {
+    background-color: blue;
+    color: yellow;
+}
+
+.footer {
+    height: 200px;
+    width: 100vw;
+    margin: 30px 0px;
+    display: flex;
+    background-color: orange;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.fcon {
+    margin-top: 10px;
+}
+
+.fcon a {
+    text-decoration: none;
+    color:white;
+}
